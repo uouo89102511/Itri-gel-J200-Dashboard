@@ -126,7 +126,7 @@ with col1:
     """, unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button("⚡ 前往 PA60 分析", use_container_width=True, type="primary", key="btn_pa60"):
-        st.switch_page("pages/1_PA60_電力分析.py")
+        st.switch_page("pages/1_PA60.py")
 
 with col2:
     st.markdown("""
@@ -144,7 +144,7 @@ with col2:
     """, unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button("❄️ 前往 GM10 數位雙生", use_container_width=True, type="primary", key="btn_gm10"):
-        st.switch_page("pages/2_GM10_數位雙生.py")
+        st.switch_page("pages/2_GM10.py")
 
 with col3:
     st.markdown("""
@@ -162,7 +162,7 @@ with col3:
     """, unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button("📊 前往疊圖比對", use_container_width=True, type="primary", key="btn_compare"):
-        st.switch_page("pages/3_疊圖比對分析.py")
+        st.switch_page("pages/3_PA60xGM10.py")
 
 st.markdown("<hr class='divider'>", unsafe_allow_html=True)
 
